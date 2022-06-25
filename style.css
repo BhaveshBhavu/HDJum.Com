@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Monoton&family=Rubik+Moonrocks&family=Satisfy&display=swap');
+/*
+font-family: 'Lobster', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Rubik Moonrocks', cursive;
+font-family: 'Satisfy', cursive;
+*/
+
+body {
+    font-size: 15pt;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-family: sans-serif;
+}
+
+
+hedar{
+  background: #D73B1F;
+  width: 100vw;
+  height: auto;
+  border: soligd ;
+  padding: 7px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+logo{
+  font-size: 35px;
+  
+  font-family: 'Monoton', cursive;
+  color: white;
+  
+}
+
+/*  search🔍  */
+srch{
+  display: nonel;
+  position: fixed;
+  bottom: 80px;
+  right: 80px;
+  color: white;
+  border: solidy ;
+  padding: 10px 24px;
+  background-color: #D73B1F;
+  border-radius: 2px;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+  
+}
+
+
+men{
+  border: 3px solidy red;
+  width: auto;
+  height: 500px;
+  background-color: bluye;
+  position: relative;
+  top: 0px;
+  padding: 20px 80px;
+  display: block;
+  justify-content: center;
+}
+
+.box{
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+  
+  width: 100%;
+  height: auto;
+  padding: 10px 0px ;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #D73B1F;
+}
+
+.box p {
+  color: white;
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.video_box{
+  border: solidg;
+  color: red;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+}
+
+
+.video_box div{
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+  display: block;
+  width: 190px;
+  border-radius: 2px;
+}
+/*
+
+.video_box div img{
+  
+  
+}
+*/
+
+.video_box div  p{
+  margin: 10px 0px;
+  font-size: 18px;
+}
+
+.video_box div bo {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 140px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.video_box div bo bt {
+  background-color: white;
+  border-radius: 50px; 
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: 70px;
+  left: 60px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+.p{
+  font-size: 11px;
+  border: solidb;
+  margin: 30px 0px;
+  padding: 0px;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center
+  
+}
+
+.menu di{
+  border: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #D73B1F ;
+  color: white;
+}
+
+
+and{
+  border: solid red;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #D73B1F;
+  color: white;
+}
+
+
+
+
+/*  🐵🙈🙉🙊  393px */
+
+
+
+
+@media (max-width: 500px) {
+  
+body{
+  background-color: violety;
+  font-size: 15pt;
+}
+
+.box p{
+  
+  font-size: 15px ;
+  }
+
+
+.video_box{
+  border: solidy ;
+  width: 300px;
+}
+
+.video_box div{
+  width: 100%;
+  
+}
+/*
+.men__{
+  border: solidy;
+  width: 300px;
+  margin: 0px 0px;
+}
+*/
+
+men{
+  padding: 20px 50px;
+}
+  
+
+.video_box div bo bt {
+  position: relative;
+  top: 70px;
+  left: 100px;
+}
+
+srch{
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  z-index: 9898;
+  
+}
+
+.p{
+  font-size: 13px;
+  
+}
+
+.menu di{
+  font-size: 14px;
+}
+
+
+and{
+  position: absolute;
+  bottom: -4700px;
+  
+}
+
+and p{
+  font-size: 15px;
+  display: block;
+  text-align: center;
+  
+}
+
+
+
+
+}
+
+
+
+
+
+
